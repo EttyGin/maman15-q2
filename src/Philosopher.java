@@ -2,7 +2,6 @@
  * A class responsible for the user interface and starting the meal.
  * Last update 12/12/23
  */
-
 import java.util.Random;
 import javafx.scene.image.ImageView;
 
@@ -35,20 +34,20 @@ public class Philosopher  extends Thread {
 			
 		while (true) {
 			startEating(stick1, stick2);
-            System.out.println(id + "אכל");
+            System.out.println(id + "ate");
             finishEating(stick1, stick2);
-            System.out.println(id + "שחרר מקלות");
+            System.out.println(id + "released sticks");
             waitForTime(); //Thinking
-            System.out.println(id + "גמר לחשוב");	
+            System.out.println(id + "stopped thinjing");	
 		}	
 	}
 
 	private void startEating(int stick1, int stick2) {
 		ps.setVisible(true);
 		sticks.catchStick(id, stick1);
-        System.out.println(id + "תפס מקל 1");
+        System.out.println(id + "יhas 1 stick");
 		sticks.catchStick(id, stick2);
-        System.out.println(id + "תפס מקל 2");
+        System.out.println(id + "יhas 2 sticks");
 		waitForTime();
 	}
 	
