@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="887.0" prefWidth="1099.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PhilosophersFeastController">
+   <children>
+      <ImageView fitHeight="791.0" fitWidth="1098.0" layoutX="1.0" layoutY="26.0">
+         <image>
+            <Image url="@../imgs/table.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="919.0" fitWidth="1099.0">
+         <image>
+            <Image url="@../imgs/tab.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="philo4" fitHeight="167.0" fitWidth="185.0" layoutX="140.0" layoutY="138.0">
+         <image>
+            <Image url="@../imgs/p1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hun4" fitHeight="177.0" fitWidth="200.0" layoutX="14.0" layoutY="26.0">
+         <image>
+            <Image url="@../imgs/hungry1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="philo3" fitHeight="167.0" fitWidth="185.0" layoutX="140.0" layoutY="534.0">
+         <image>
+            <Image url="@../imgs/p1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hun3" fitHeight="177.0" fitWidth="200.0" layoutX="33.0" layoutY="417.0">
+         <image>
+            <Image url="@../imgs/hungry1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="philo2" fitHeight="167.0" fitWidth="171.0" layoutX="611.0" layoutY="693.0">
+         <image>
+            <Image url="@../imgs/p2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hun2" fitHeight="177.0" fitWidth="200.0" layoutX="703.0" layoutY="605.0">
+         <image>
+            <Image url="@../imgs/hungry2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="philo1" fitHeight="167.0" fitWidth="171.0" layoutX="818.0" layoutY="338.0">
+         <image>
+            <Image url="@../imgs/p2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hun1" fitHeight="177.0" fitWidth="200.0" layoutX="889.0" layoutY="221.0">
+         <image>
+            <Image url="@../imgs/hungry2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="philo0" fitHeight="157.0" fitWidth="157.0" layoutX="703.0" layoutY="71.0">
+         <image>
+            <Image url="@../imgs/p2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hun0" fitHeight="177.0" fitWidth="200.0" layoutX="818.0">
+         <image>
+            <Image url="@../imgs/hungry2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s0" fitHeight="200.0" fitWidth="172.0" layoutX="385.0" layoutY="168.0">
+         <image>
+            <Image url="@../imgs/s1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s1" fitHeight="200.0" fitWidth="172.0" layoutX="617.0" layoutY="228.0">
+         <image>
+            <Image url="@../imgs/s2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s3" fitHeight="200.0" fitWidth="172.0" layoutX="338.0" layoutY="494.0">
+         <image>
+            <Image url="@../imgs/s4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s4" fitHeight="200.0" fitWidth="185.0" layoutX="224.0" layoutY="368.0">
+         <image>
+            <Image url="@../imgs/s5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s2" fitHeight="209.0" fitWidth="185.0" layoutX="611.0" layoutY="490.0">
+         <image>
+            <Image url="@../imgs/s3.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
