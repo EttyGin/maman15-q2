@@ -16,11 +16,9 @@ public class Sticks {
 		used = new boolean[this.numOfSticks];
 		this.sticks = sticks;
 	}
-
 	//Gets a philosopher number and a stick number and connects them
 	public synchronized void catchStick(int pId, int stickNum) {
 		drawChange(pId, stickNum, 100); //Moves the stick towards the philosopher, for illustration
-
 		while (used[stickNum]==true) { //The specific stick in use
 			try {
 				wait();
@@ -56,7 +54,7 @@ public class Sticks {
 			break;
 		}
 		case 1: {
-			if (stickNum == 2) x+=size;
+			if (stickNum == 2) y-=size;
 			if (stickNum == 1) y+=size;			
 			break;
 		}
